@@ -1,12 +1,12 @@
-#include <iostream> 
-#include "StudentOOP.hpp" 
+#include <iostream>
+#include "StudentOOP.hpp"
 
-int main()
+int main() {
 
-{ Student student(3.5); 
+    Student student(3.5);
 
-std::cout << "The student's GPA is: " << student.GPA() << std::endl; 
-
-return 0; 
+    std::cout << "The student's GPA is: " << student.GPA() << "\n";
+	
+    return 0;
 
 }
